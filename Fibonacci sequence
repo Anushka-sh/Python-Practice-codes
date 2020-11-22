@@ -1,0 +1,10 @@
+n = int(input("Enter the number"))
+a = 0
+print(a)
+count = 0
+b = 1
+for i in range(a,n-1):
+    c = a + b
+    b = a
+    a = c
+    print(a)
