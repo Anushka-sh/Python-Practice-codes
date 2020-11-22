@@ -1,0 +1,12 @@
+n = 2
+while 1:
+    i = 1;
+    while i<=10:
+        c = n*i;
+        print(n, "*", i, "=", c)
+        i = i+1;
+    choice = int(input("Do you want to continue the next table of a number, press 0 for no"))
+    if choice == 0:
+        break
+    else:
+        n = n+1;
