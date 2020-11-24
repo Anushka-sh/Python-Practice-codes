@@ -1,0 +1,10 @@
+n = int(input("Enter a number"))
+reverse_num = 0
+while(n>0):
+    reminder = n%10
+    reverse_num = reverse_num*10 + reminder
+    n = n//10
+if (n == reverse_num):
+    print("true")
+else:
+    print("False")
