@@ -1,0 +1,4 @@
+n = int(input("Enter the number"))
+str = "pynative"
+for i in range(n, len(str), 1):
+    print(str[i])
