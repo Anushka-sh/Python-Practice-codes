@@ -1,0 +1,19 @@
+list1 = [10, 20, 30, 40, 10]
+list2 = [10, 20, 30, 40, 50]
+a = list1[0]
+b = list1[-1]
+c = list2[0]
+d = list2[-1]
+if a==b:
+    print("Given list is  [10, 20, 30, 40, 10]")
+    print("True")
+else:
+    print("Given list is  [10, 20, 30, 40, 10]")
+    print("False")
+
+if c==d:
+    print("Given list is  [10, 20, 30, 40, 50]")
+    print("True")
+else:
+    print("Given list is  [10, 20, 30, 40, 50]")
+    print("False")
