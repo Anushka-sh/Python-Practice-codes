@@ -1,0 +1,11 @@
+str1 = "PyNaTivE"
+lower = []
+upper = []
+for char in str1:
+    if char.islower():
+        lower.append(char)
+    else:
+        upper.append(char)
+sortedString = ''.join(lower+upper)
+print("arranging characters giving precedence to lowercase letters:")
+print(sortedString )
