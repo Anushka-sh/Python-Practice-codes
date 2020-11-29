@@ -1,0 +1,5 @@
+str1 = "Welcome to USA. usa awesome, isn't it?"
+subString = "USA"
+str2 = str1.lower()
+count = str2.count(subString.lower())
+print("The USA count is:", count)
