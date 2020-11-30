@@ -1,0 +1,6 @@
+str1 = "Apple"
+countDict = dict()
+for chars in str1:
+    x = str1.count(chars)
+    countDict[chars] = x
+print(countDict)
