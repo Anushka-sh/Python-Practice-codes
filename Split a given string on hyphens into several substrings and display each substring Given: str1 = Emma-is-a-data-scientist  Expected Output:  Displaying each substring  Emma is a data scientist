@@ -1,0 +1,5 @@
+str1 = "Emma-is-a-data-scientist"
+substrings = str1.split("-")
+print("Displaying each substrings")
+for sub in substrings:
+    print(sub)
